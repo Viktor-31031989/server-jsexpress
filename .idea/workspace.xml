@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8a81f63-fa43-4a77-9544-3151c74df2f3" name="Changes" comment="" />
+    <list default="true" id="d8a81f63-fa43-4a77-9544-3151c74df2f3" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/modules/core/cors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/core/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/core/errorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/core/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/core/parseResponse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/core/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/delete/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/delete/delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/home/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/home/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/info/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/info/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/post/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/post/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/user/Model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/user/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/user/updateById.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/user/userGetAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/user/userGetById.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/user/userRegister.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.20.2.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.20.2.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +44,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2HQlMXqpnhKdMfSK6xggPF2U5rd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +66,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "16.15.1",
     "javascript.nodejs.core.library.typings.version": "16.18.0",
+    "last_opened_file_path": "/Users/viktordikovich/WebstormProjectsg/js-express-localcoading/src/modules/user",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -41,23 +76,28 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/viktordikovich/WebstormProjectsg/js-express-localcoading/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "ts.external.directory.path": "/Users/viktordikovich/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4167.31/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/user" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/modules/post" />
+      <recent name="$PROJECT_DIR$/src/modules/core/post" />
+      <recent name="$PROJECT_DIR$/src/modules/delete" />
+      <recent name="$PROJECT_DIR$/src/modules/info" />
+      <recent name="$PROJECT_DIR$/src/modules/home" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
-    <configuration name="Debug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
+    <configuration name="debuger" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
       <method v="2" />
     </configuration>
-    <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229">
-      <method v="2" />
-    </configuration>
-    <configuration name="babel-node" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="babel-node" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -87,7 +127,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -107,20 +147,29 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="type" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="type" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Attach to Node.js/Chrome.Debug" />
-      <item itemvalue="Attach to Node.js/Chrome.Unnamed" />
+      <item itemvalue="Attach to Node.js/Chrome.debuger" />
       <item itemvalue="npm.babel-node" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.type" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.dev" />
-      <item itemvalue="npm.start" />
       <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
+        <item itemvalue="npm.type" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.babel-node" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.test" />
       </list>
@@ -134,11 +183,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668225140583</updated>
-      <workItem from="1668225142182" duration="10707000" />
+      <workItem from="1668225142182" duration="36271000" />
+      <workItem from="1668904924428" duration="103000" />
+      <workItem from="1668996295135" duration="13451000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1668316416749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668316416749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
